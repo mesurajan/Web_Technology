@@ -1,0 +1,127 @@
+Create a file
+Used for: Creating a new empty file.
+Command: echo. > file.txt
+
+git init
+Used for: Initializing a new Git repository in the current directory.
+Example: git init
+
+git clone <repository-url>
+Used for: Cloning an existing repository from a remote URL to your local machine.
+Example: git clone https://github.com/user/repo.git
+
+git status
+Used for: Checking the status of your repository (e.g., which files are staged, modified, or untracked).
+Example: git status
+
+git add <file>
+Used for: Staging changes made to a specific file for the next commit.
+Example: git add index.html
+
+git add .
+Used for: Staging all changes (modified, new, or deleted files) in the current directory and subdirectories.
+Example: git add .
+
+git commit -m "message"
+Used for: Committing the staged changes with a message describing the changes.
+Example: git commit -m "Fix bug in homepage layout"
+
+git commit -a -m "message"
+Used for: Committing all tracked changes (including modified files) in a single command without staging them first.
+Example: git commit -a -m "Update user profile UI"
+
+git push
+Used for: Pushing your local commits to a remote repository (e.g., GitHub).
+Example: git push origin main
+
+git pull
+Used for: Fetching and merging changes from the remote repository into your local repository.
+Example: git pull origin main
+
+git fetch
+Used for: Fetching changes from a remote repository without merging them.
+Example: git fetch origin
+
+git merge <branch>
+Used for: Merging changes from a different branch into the current branch.
+Example: git merge feature-branch
+
+git branch
+Used for: Listing all the branches in your repository or displaying the current branch.
+Example: git branch
+
+git branch <branch-name>
+Used for: Creating a new branch.
+Example: git branch new-feature
+
+git checkout <branch>
+Used for: Switching to a different branch.
+Example: git checkout feature-branch
+
+git checkout -b <branch>
+Used for: Creating and switching to a new branch in one command.
+Example: git checkout -b feature-xyz
+
+git reset <file>
+Used for: Unstaging a file that has been staged but not committed.
+Example: git reset index.html
+
+git reset --hard
+Used for: Resetting your working directory and index to the last commit, discarding all uncommitted changes.
+Example: git reset --hard
+
+git log
+Used for: Displaying the commit history in the repository.
+Example: git log
+
+git diff
+Used for: Viewing the differences between your working directory and the staging area or between commits.
+Example: git diff
+
+git stash
+Used for: Stashing your uncommitted changes temporarily so you can work on something else.
+Example: git stash
+
+git stash pop
+Used for: Applying the most recent stashed changes.
+Example: git stash pop
+
+git remote -v
+Used for: Viewing the remote repositories associated with your local repository.
+Example: git remote -v
+
+git remote add <name> <url>
+Used for: Adding a new remote repository.
+Example: git remote add origin https://github.com/user/repo.git
+
+git tag <tag-name>
+Used for: Creating a tag (often used for versioning).
+Example: git tag v1.0
+
+git tag -a <tag-name> -m "message"
+Used for: Creating an annotated tag with a message.
+Example: git tag -a v1.0 -m "Release version 1.0"
+
+git push --tags
+Used for: Pushing tags to the remote repository.
+Example: git push --tags
+
+git rebase <branch>
+Used for: Reapplying commits on top of another branch.
+Example: git rebase feature-branch
+
+git revert <commit>
+Used for: Creating a new commit that undoes the changes of a previous commit.
+Example: git revert abc123
+
+git rm <file>
+Used for: Removing a file from the working directory and staging the removal for commit.
+Example: git rm oldfile.txt
+
+git config --global user.name "Your Name"
+Used for: Setting your global Git username.
+Example: git config --global user.name "Surajan Shrestha"
+
+git config --global user.email "youremail@example.com"
+Used for: Setting your global Git email address.
+Example: git config --global user.email "surajansth2061@gmail.com"
