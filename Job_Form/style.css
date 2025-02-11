@@ -1,20 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html {
     font-size: 16px;
 }
-body{
+body {
     background-color: wheat;
     color: #333;
-    font-family: 'poppins',serif;
+    font-family: 'poppins', serif;
 }
-
-#container{
-    width: 400px;
+#container {
+    width: 800px;
     background-color: #f4f4f4;
     margin: 20px auto;
     padding: 30px;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+    border-radius: 6px;
+}
+h1,
+p {
+    text-align: center;
+}
+p {
+    color: gray;
+    margin-top: 10px;
+}
+h2 {
+    margin: 10px 0;
+}
+.form-row {}
+.form-element {
+    margin: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 49%;
+}
+label, input ,select{
+    display: block;
+}
+input, textarea ,select{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.w-full {
+    width: 100%;
+}
+.required {
+    color: red; /* Change the color of the asterisk to red */
 }
